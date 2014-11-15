@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
+#import "ApplyRule1.h"
+#import "CreateGrid.h"
 
 @interface GoL_4Tests : XCTestCase
 
@@ -27,7 +29,14 @@
 
 - (void)testExample {
     // This is an example of a functional test case.
-    XCTAssert(YES, @"Pass");
+    //XCTAssert(YES, @"Pass");
+    
+    NSMutableArray *initGrid = [CreateGrid generateEmptyGrid];
+    
+    NSMutableArray *finalGrid = [CreateGrid generateEmptyGrid];
+    
+    XCTAssert([finalGrid isEqualToArray:[ApplyRule1 evolveGrid:initGrid]], @"Rule1");
+    
 }
 
 - (void)testPerformanceExample {

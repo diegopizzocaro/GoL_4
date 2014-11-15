@@ -14,6 +14,10 @@
 		F85664821A178C210024E3A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F85664811A178C210024E3A8 /* Images.xcassets */; };
 		F85664851A178C210024E3A8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F85664831A178C210024E3A8 /* LaunchScreen.xib */; };
 		F85664911A178C210024E3A8 /* GoL_4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F85664901A178C210024E3A8 /* GoL_4Tests.m */; };
+		F856649C1A178DDD0024E3A8 /* ApplyRule1.m in Sources */ = {isa = PBXBuildFile; fileRef = F856649B1A178DDD0024E3A8 /* ApplyRule1.m */; };
+		F856649D1A178DDD0024E3A8 /* ApplyRule1.m in Sources */ = {isa = PBXBuildFile; fileRef = F856649B1A178DDD0024E3A8 /* ApplyRule1.m */; };
+		F85664A01A178E380024E3A8 /* CreateGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = F856649F1A178E380024E3A8 /* CreateGrid.m */; };
+		F85664A11A178E380024E3A8 /* CreateGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = F856649F1A178E380024E3A8 /* CreateGrid.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,10 @@
 		F856648A1A178C210024E3A8 /* GoL_4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoL_4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F856648F1A178C210024E3A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F85664901A178C210024E3A8 /* GoL_4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoL_4Tests.m; sourceTree = "<group>"; };
+		F856649A1A178DDD0024E3A8 /* ApplyRule1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApplyRule1.h; path = GoL_4Tests/ApplyRule1.h; sourceTree = SOURCE_ROOT; };
+		F856649B1A178DDD0024E3A8 /* ApplyRule1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApplyRule1.m; path = GoL_4Tests/ApplyRule1.m; sourceTree = SOURCE_ROOT; };
+		F856649E1A178E380024E3A8 /* CreateGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreateGrid.h; path = GoL_4/CreateGrid.h; sourceTree = SOURCE_ROOT; };
+		F856649F1A178E380024E3A8 /* CreateGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreateGrid.m; path = GoL_4/CreateGrid.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,10 @@
 		F85664731A178C210024E3A8 /* GoL_4 */ = {
 			isa = PBXGroup;
 			children = (
+				F856649A1A178DDD0024E3A8 /* ApplyRule1.h */,
+				F856649B1A178DDD0024E3A8 /* ApplyRule1.m */,
+				F856649E1A178E380024E3A8 /* CreateGrid.h */,
+				F856649F1A178E380024E3A8 /* CreateGrid.m */,
 				F85664781A178C210024E3A8 /* AppDelegate.h */,
 				F85664791A178C210024E3A8 /* AppDelegate.m */,
 				F856647B1A178C210024E3A8 /* ViewController.h */,
@@ -221,6 +233,8 @@
 			files = (
 				F856647D1A178C210024E3A8 /* ViewController.m in Sources */,
 				F856647A1A178C210024E3A8 /* AppDelegate.m in Sources */,
+				F85664A01A178E380024E3A8 /* CreateGrid.m in Sources */,
+				F856649C1A178DDD0024E3A8 /* ApplyRule1.m in Sources */,
 				F85664771A178C210024E3A8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,7 +243,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F856649D1A178DDD0024E3A8 /* ApplyRule1.m in Sources */,
 				F85664911A178C210024E3A8 /* GoL_4Tests.m in Sources */,
+				F85664A11A178E380024E3A8 /* CreateGrid.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

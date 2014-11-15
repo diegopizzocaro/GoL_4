@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8804BDF8-CDBE-4D7E-A4A8-02813913D947</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GoL_4</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>23FFF88958FCB0BA6D0D548EDAD5DA0B01367E8A</key>
+		<string>https://github.com/diegopizzocaro/GoL_4.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GoL_4/GoL_4.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>23FFF88958FCB0BA6D0D548EDAD5DA0B01367E8A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/diegopizzocaro/GoL_4.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>23FFF88958FCB0BA6D0D548EDAD5DA0B01367E8A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>23FFF88958FCB0BA6D0D548EDAD5DA0B01367E8A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GoL_4</string>
+		</dict>
+	</array>
+</dict>
+</plist>
